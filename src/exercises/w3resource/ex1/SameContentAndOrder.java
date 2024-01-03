@@ -7,7 +7,7 @@ public class SameContentAndOrder {
             return false;
 
         for (int i = 0; i < arr1.length; i++) {
-            if (arr1[i].equals(arr2[i]))
+            if (!arr1[i].equals(arr2[i]))
                 return false;
         }
 
